@@ -29,7 +29,9 @@
    
   
 ## Examples  
- 下面的示例创建一个<xref:System.Windows.Controls.Menu>具有多个<xref:System.Windows.Controls.MenuItem>对象的。  在上<xref:System.Windows.Input.KeyboardNavigationMode.Cycle> , 附加属性设置为。 <xref:System.Windows.Controls.Menu> <xref:System.Windows.Input.KeyboardNavigation.TabNavigation%2A>  这意味着<xref:System.Windows.Controls.Menu>, 当使用中的 tab 键更改焦点时, 焦点将从每个元素移动, 当到达最后一个元素时, 焦点将返回到第一个元素。  
+ 下面的示例创建一个具有多个<xref:System.Windows.Controls.MenuItem>对象的<xref:System.Windows.Controls.Menu>。
+ 在上<xref:System.Windows.Controls.Menu>的<xref:System.Windows.Input.KeyboardNavigation.TabNavigation%2A>附加属性被设置为<xref:System.Windows.Input.KeyboardNavigationMode.Cycle>。
+ 这意味着在<xref:System.Windows.Controls.Menu>当使用中的 tab 键更改焦点时, 焦点将从每个元素移动到下一个元素, 当到达最后一个元素时, 焦点将返回到第一个元素。  
   
  [!code-xaml[MarkupSnippets#MarkupKeyboardNavigationTabNavigationXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/MarkupSnippets/CSharp/Window1.xaml#markupkeyboardnavigationtabnavigationxaml)]  
   
@@ -107,14 +109,14 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Docs>
-        <summary>获取设置此属性所在元素的子级的逻辑控件 Tab 键导航行为或对该行为进行设置。</summary>
+        <summary>获取此属性所在元素的子级的逻辑控件的 Tab 键导航行为或对该行为进行设置。</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- 此属性指定当发生控件选项卡导航时, 容器移动焦点的方式。  
+ 此属性指定当发生控件 Tab 键导航时, 容器移动焦点的方式。  
   
- 通过使用 CTRL + TAB 键组合来调用控件选项卡导航。  
+ 使用 CTRL + TAB 组合键会调用控件的 Tab 键导航。  
   
 <a name="dependencyPropertyInfo_ControlTabNavigation"></a>   
 ## <a name="dependency-property-information"></a>依赖项属性信息  
@@ -168,7 +170,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Docs>
-        <summary>获取设置此属性所在元素的子级的方向导航行为或对该行为进行设置。</summary>
+        <summary>获取此属性所在元素的子级的方向键导航行为或对该行为进行设置。</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -652,7 +654,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Docs>
-        <summary>获取设置此属性所在元素的 Tab 键索引或对该索引进行设置。</summary>
+        <summary>获取此属性所在元素的 Tab 键索引或对该索引进行设置。</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
